@@ -1,0 +1,802 @@
+{
+	"info": {
+		"_postman_id": "4ef00a98-042c-4c52-bdde-a2db2e3b47ff",
+		"name": "Easy-Cam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17636630",
+		"_collection_link": "https://www.postman.com/winter-rocket-183164/workspace/easy-cam/collection/17636630-4ef00a98-042c-4c52-bdde-a2db2e3b47ff?action=share&creator=17636630&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "info",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Token",
+						"value": "305_80fd7555634b868afe155c30308974f03fa02065",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "NAE",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "nikit.babaev2022@outlook.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=info",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "info"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "info Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Token",
+						"value": "305_80fd7555634b868afe155c30308974f03fa02065",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "NAE",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "nikit.babaev2022@outlook.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=info",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "info"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addresses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Token",
+						"value": "305_80fd7555634b868afe155c30308974f03fa02065",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Token",
+						"value": "404_97b3435f771d46d4209bf6605a01d8d4c5b1c9a9",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Token",
+						"value": "148_bb2a8e987312fc8dc19c99caab3f30394341e1a7",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=addresses",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "addresses"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "makePayment",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Token",
+						"value": "305_80fd7555634b868afe155c30308974f03fa02065",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "NAE",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "nikit.babaev2022@outlook.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=makePayment",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "makePayment"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addCart",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Token",
+						"value": "305_80fd7555634b868afe155c30308974f03fa02065",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientId\":\"Ванов Иван Батьковиq\",\r\n    \"orderId\":\"123127\",\r\n    \"sum\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=addCart",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "addCart"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "easy-cam.server.paykeeper.ru/create/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "305_80fd7555634b868afe155c30308974f03fa02065",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sum\": \"1\",\r\n    \"msgtype\":\"createbinding\",\r\n    \"clientid\": \"123456\",\r\n    \"token\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "easy-cam.server.paykeeper.ru/create/",
+					"host": [
+						"easy-cam",
+						"server",
+						"paykeeper",
+						"ru"
+					],
+					"path": [
+						"create",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "archive_main",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "148_bb2a8e987312fc8dc19c99caab3f30394341e1a7",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "cam0182",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=archive_main",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "archive_main"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "148_bb2a8e987312fc8dc19c99caab3f30394341e1a7",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\":\"2.5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=payment_v2",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "payment_v2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "archive_main_v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "148_bb2a8e987312fc8dc19c99caab3f30394341e1a7",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cameraId\": \"cam0182\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=archive_main_v2",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "archive_main_v2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "groups",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "404_97b3435f771d46d4209bf6605a01d8d4c5b1c9a9",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cameraId\": \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=groups",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "groups"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "change_cameras_order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "404_97b3435f771d46d4209bf6605a01d8d4c5b1c9a9",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"entityIds\" : [\"57629\", \"57619\", \"57618\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=change_cameras_order",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "change_cameras_order"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "archive_day",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "148_bb2a8e987312fc8dc19c99caab3f30394341e1a7",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "cam0182",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=archive_day&day=14.05.2023",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "archive_day"
+						},
+						{
+							"key": "day",
+							"value": "14.05.2023"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "archive_day_v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "148_bb2a8e987312fc8dc19c99caab3f30394341e1a7",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cameraId\": \"cam0182\",\r\n    \"date\":\"14.05.2023\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=archive_day_v2",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "archive_day_v2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "demo.paykeeper.ru/info/systems/list/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4=",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "demo.paykeeper.ru/info/systems/list/",
+					"host": [
+						"demo",
+						"paykeeper",
+						"ru"
+					],
+					"path": [
+						"info",
+						"systems",
+						"list",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "changeCameraName",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "256_78d69937f82cf2bb1cb8cd8847c9ed9614aed4c1",
+						"type": "text"
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cameraId\" : \"57507\",\r\n    \"cameraName\" : \"камера 3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=changeCameraName",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "changeCameraName"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth_v2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Token",
+						"value": "7_ed0c1f7f788fda29aab360cc460a2441a8753701",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "HTTP_TOKEN",
+						"value": "20_YG!&@bdyu!g78T_G2H89hjas%gfyuT782+GHF#A@SVD87T_HJ12sdxhETGuyg78FG&$Q*YF",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"login\" : \"pobeda\",\r\n    \"password\" : \"e362c69e659254f3743bc6f4fd899691fe251f7f\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://easy-cam.com/api.php?act=auth_v2",
+					"protocol": "http",
+					"host": [
+						"easy-cam",
+						"com"
+					],
+					"path": [
+						"api.php"
+					],
+					"query": [
+						{
+							"key": "act",
+							"value": "auth_v2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
